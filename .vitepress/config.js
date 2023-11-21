@@ -46,7 +46,7 @@ export default defineConfig({
 							{ text: 'Строки', link: '/theory/js/string' },
 							{ text: 'Числа', link: '/theory/js/number' },
 							{ text: 'Массивы', link: '/theory/js/array' },
-							{ text: 'Объекты', link: '/theory/js/object' },
+							{ text: 'Map и Set', link: '/theory/js/map_set' },
 						],
 					},
 					{ text: 'Vue', link: '/theory/vue' },
