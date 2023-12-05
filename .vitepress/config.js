@@ -51,9 +51,19 @@ export default defineConfig({
 						],
 					},
 					{ text: 'Vue', link: '/theory/vue' },
-					{ text: 'Браузер', link: '/theory/browser/internet' },
-					{ text: 'Основы программирования', link: '/theory/programming' },
+					{
+						text: 'Браузер',
+						link: '/theory/browser/internet',
+						collapsed: true,
+						items: [
+							{ text: 'Как работает интеренет', link: '/theory/browser/internet' },
+							{ text: 'Загрузка документа и ресурсов', link: '/theory/browser/document_load' },
+						],
+					},
+					{ text: 'Основы программирования', link: '/theory/programming/base' },
 					{ text: 'Алгоритмы', link: '/theory/algorithms' },
+					{ text: 'TypeScript', link: '/theory/typescript' },
+					{ text: 'Git', link: '/theory/git' },
 				],
 			},
 			{
