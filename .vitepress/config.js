@@ -48,6 +48,7 @@ export default defineConfig({
 							{ text: 'Массивы', link: '/theory/js/array' },
 							{ text: 'Объекты', link: '/theory/js/object' },
 							{ text: 'Map и Set', link: '/theory/js/map_set' },
+							{ text: 'Асинхронность', link: '/theory/js/async' },
 						],
 					},
 					{ text: 'Vue', link: '/theory/vue' },
@@ -56,14 +57,49 @@ export default defineConfig({
 						link: '/theory/browser/internet',
 						collapsed: true,
 						items: [
-							{ text: 'Как работает интеренет', link: '/theory/browser/internet' },
-							{ text: 'Загрузка документа и ресурсов', link: '/theory/browser/document_load' },
+							{
+								text: 'Как работает интеренет',
+								link: '/theory/browser/internet',
+							},
+							{
+								text: 'Загрузка документа и ресурсов',
+								link: '/theory/browser/document_load',
+							},
 						],
 					},
 					{ text: 'Основы программирования', link: '/theory/programming/base' },
 					{ text: 'Алгоритмы', link: '/theory/algorithms' },
 					{ text: 'TypeScript', link: '/theory/typescript' },
 					{ text: 'Git', link: '/theory/git' },
+					{
+						text: 'English',
+						link: '/theory/english/verbs/to_be',
+						collapsed: true,
+						items: [
+							{
+								text: 'Глаголы',
+								link: '/theory/english/verbs/to_be',
+								collapsed: true,
+								items: [
+									{
+										text: 'Глагол to be: что это такое и зачем нужен',
+										link: '/theory/english/verbs/to_be',
+									},
+								],
+							},
+							{
+								text: 'Местоимения',
+								link: '/theory/english/pronouns/personal',
+								collapsed: true,
+								items: [
+									{
+										text: 'Личные местоимения',
+										link: '/theory/english/pronouns/personal',
+									},
+								],
+							},
+						],
+					},
 				],
 			},
 			{
